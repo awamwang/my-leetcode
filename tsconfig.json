@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "target": "es2015",
+    "module": "commonjs",
+    "outDir": "dist",
+//    "typeRoots" : ["./types"],
+    "allowJs": true,
+//    "declaration": true,
+    "sourceMap": false,
+    "noEmitOnError": true,
+    "noUnusedLocals": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "strictNullChecks": true,
+    "noImplicitAny": false,
+    "noUnusedParameters": false,
+    "noImplicitThis": false,
+    "traceResolution": false
+  },
+  "include": [
+    "Accepted/**/*.ts",
+    "Doing/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules/",
+    "dist/",
+    "PlatoReport/"
+  ]
+}
