@@ -34,3 +34,5 @@ console.log(searchInsert([1,3,5,6], 5))
 console.log(searchInsert([1,3,5,6], 2))
 console.log(searchInsert([1,3,5,2], 7))
 console.log(searchInsert([1,3,5,2], 0))
+
+// time complexity: O(n) ;memory complexity: O(1) ;
