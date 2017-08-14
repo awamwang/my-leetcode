@@ -27,7 +27,6 @@ var titleToNumber = function(s) {
   let res = 0
   let v = values[index]
 
-  console.log(values)
   while (typeof v !== 'undefined') {
     res += Math.pow(26, index) * getCharNumber(v)
     index ++
@@ -41,4 +40,4 @@ function getCharNumber (c) {
   return c.charCodeAt(0) - 64
 }
 
-console.log(titleToNumber('AZ'))
+console.log(titleToNumber('AZA'))
