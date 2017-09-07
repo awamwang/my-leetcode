@@ -13,21 +13,19 @@
  * @return {number}
  */
 var rob = function (nums) {
-  function f (n) {
-    if (n === 0) {
-      return 0
-    } else if (n === 1) {
-      return nums[0]
-    } else {
-      let pre = 0, cur = 0, temp = -1
-      for (let i = 0, len = nums.length; i < len; i++) {
-        temp = cur
-        cur = Math.max(nums[i] + pre, cur)
-        pre = temp
-      }
-      return cur
-    }
-  }
+  let l = nums.length
 
-  return f(nums.length)
+  if (l === 0) {
+    return 0
+  } else if (l === 1) {
+    return nums[0]
+  } else {
+    let pre = 0, cur = 0, temp = -1
+    for (let i = 0, len = l; i < len; i++) {
+      temp = cur
+      cur = Math.max(nums[i] + pre, cur)
+      pre = temp
+    }
+    return cur
+  }
 };
