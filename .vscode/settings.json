@@ -1,0 +1,13 @@
+{
+  "leetcode.endpoint": "leetcode-cn",
+  "leetcode.defaultLanguage": "javascript",
+  "leetcode.workspaceFolder": "/Users/wangmeng/Code/03learn/practice-leetcode-javascript/Problems",
+  "leetcode.filePath": {
+    "default": {
+      "folder": "",
+      "filename": "${id}.${kebab-case-name}/${language}.${ext}"
+    }
+  },
+  "leetcode.hint.configWebviewMarkdown": false,
+  "leetcode.hint.commentDescription": false
+}
